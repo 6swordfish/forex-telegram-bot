@@ -23,3 +23,6 @@ jobs:
     
     - name: 執行匯率程式
       run: python forex_bot.py
+      env:
+        TG_BOT_TOKEN: ${{secrets.TG_BOT_TOKEN}}
+        TG_CHAT_ID: ${{secrets.TG_CHAT_ID}}
