@@ -1,5 +1,5 @@
 #自動查匯率並發送
-inport os
+import os
 import requests
 import pandas as pd
 from io import StringIO
